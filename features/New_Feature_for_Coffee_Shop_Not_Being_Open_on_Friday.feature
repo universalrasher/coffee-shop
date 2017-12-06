@@ -6,8 +6,8 @@ Feature: New Feature for Coffee Shop Not Being Open on Friday
     When the date is Friday
     And I try to order a New coffee
     
-    Scenario: The Shop should be open on Fridays morning at 8:00 AM
-      Given I expect a message 'Shop will open at 8:00 AM'
+    Scenario: The Shop should be open on Fridays night at 12 AM
+      Given I expect a message 'Shop will open at 12 AM'
       When the date is Friday
       And I try to order a New coffee
     
